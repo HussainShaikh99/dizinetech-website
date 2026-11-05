@@ -31,7 +31,7 @@ export const metadata = {
             <Home6Testimonial/>
             <Home6Blog />/
             <Home6Contact />
-            <Home6Footer />
+            <Home5Footer />
 
         </>
     )

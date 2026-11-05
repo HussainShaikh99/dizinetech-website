@@ -39,7 +39,7 @@ const MarketingConsultingpage = () => {
             <Home4Blog />
             <Home4Testimonial />
             <Home4Contact />
-            <Home4Footer />
+            <Home5Footer />
         </>
     )
 }
