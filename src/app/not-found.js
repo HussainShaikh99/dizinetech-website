@@ -1,6 +1,6 @@
 
 import Breadcrum from "@/components/common/Breadcrum";
-import Footer1 from "@/components/Footer/Footer1";
+import Home5Footer from "@/components/Footer/Home5Footer";
 import Header1 from "@/components/header/Header1";
 import Link from "next/link";
 import React from "react";
@@ -44,7 +44,7 @@ const FileNotFound = () => {
       </div>
 
 
-      <Footer1 />
+      <Home5Footer/>
 
     </>
   );

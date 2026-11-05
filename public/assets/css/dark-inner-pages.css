@@ -20,12 +20,12 @@
    ========================================================================= */
 
 body {
-    background-color: #0E1117;
+    background-color: #000000;
 }
 
 /* ---------- Header (inner-page variant) ---------- */
 header.inner-page {
-    background-color: #0E1117;
+    background-color: #000000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -44,7 +44,8 @@ header.inner-page .nav-right .mobile-menu-btn svg {
 
 /* ---------- Breadcrumb ---------- */
 .breadcrumb-section {
-    background-color: #0E1117;
+    /* background-color: #A100FF; */
+    background-image: url('/assets/img/banner/IT-2.webp');
 }
 
 .breadcrumb-section .banner-content h1 {
@@ -88,7 +89,7 @@ header.inner-page .nav-right .mobile-menu-btn svg {
 
 /* ---------- Service Details content ---------- */
 .service-details-page {
-    background-color: #0E1117;
+    background-color: #000000;
 }
 
 .service-details-page h1,
@@ -158,13 +159,10 @@ header.inner-page .nav-right .mobile-menu-btn svg {
 }
 
 .logo-section .logo-wrap .logo-title h6 {
-    color: rgba(255, 255, 255, 0.7);
+    color: #ffffff;
 }
 
-.logo-section .marquee a img {
-    filter: brightness(0) invert(1);
-    opacity: 0.6;
-}
+
 
 /* ---------- Footer (Footer1 — NOT the dark-home "style-2" footer) ---------- */
 .footer-section:not(.style-2) {
@@ -332,7 +330,7 @@ header.style-1:not(.three) {
 }
 
 header.style-1:not(.three).sticky {
-    background-color: #0E1117;
+    background-color: #000000;
 }
 
 header.style-1:not(.three) .main-menu ul>li>a {
@@ -344,7 +342,7 @@ header.style-1:not(.three) .main-menu ul>li i {
 }
 
 header.style-1:not(.three) .main-menu ul>li ul.sub-menu {
-    background-color: #161B22;
+    background-color: #000000;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.35);
 }
 
@@ -370,6 +368,10 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 
 .right-sidebar-menu .sidebar-logo-area {
     border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-logo-wrap img {
+    width: 150px;
 }
 
 .right-sidebar-menu .right-sidebar-close-btn {
@@ -434,7 +436,7 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 }
 
 .section-title h2 span {
-    color: rgba(255, 255, 255, 0.5);
+    color: #A100FF;
 }
 
 .section-title p {
@@ -451,7 +453,7 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 
 /* ---------- Home1 Feature section (About page) ---------- */
 .home1-feature-section {
-    background-color: #0E1117;
+    background-color: #000000;
 }
 
 .feature-card {
@@ -503,7 +505,7 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 
 /* ---------- Testimonial card (About page) ---------- */
 .testimonial-card {
-    background-color: #161B22;
+    background-color: #000000;
     border-color: rgba(255, 255, 255, 0.08);
 }
 
@@ -520,11 +522,12 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 }
 
 .testimonial-card .author-and-quote-area .quote {
-    fill: rgba(255, 255, 255, 0.05);
+    fill: rgb(187 101 255 / 28%);
+    width: 40px;
 }
 
 .testimonial-card .testimonial-content p {
-    color: rgba(255, 255, 255, 0.75);
+    color: #ffffffb3;
 }
 
 /* ---------- Pricing cards — extra states not covered in part 1 ---------- */
@@ -553,7 +556,7 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 .form-inner input,
 .form-inner textarea {
     background-color: transparent;
-    color: #ffffff;
+    color: #ffffffb3;
     border-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -616,7 +619,7 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 
 /* ---------- Contact page specifics ---------- */
 .home4-contact-section {
-    background-color: #0E1117;
+    background-color: #000000;
 }
 
 .home4-contact-section .contact-wrapper .section-title.three svg {
@@ -627,8 +630,8 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
     color: #ffffff;
 }
 
-.home4-contact-section .contact-form-wrap {
-    background-color: #161B22;
+.home4-contact-section .contact-form-wrap, .contact-form-wrap {
+    background-color: #0E1117;
     box-shadow: none;
 }
 
@@ -702,7 +705,7 @@ header.style-1:not(.three) .nav-right .mobile-menu-btn svg {
 }
 
 .job-post-section {
-    background-color: #0E1117;
+    background-color: #000000;
 }
 
 .job-post-section .single-job-card {

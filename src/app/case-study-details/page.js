@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation'
 
 import Header1 from '@/components/header/Header1'
 import Breadcrum from '@/components/common/Breadcrum'
-import Footer1 from "@/components/Footer/Home5Footer";
+import Home5Footer from "@/components/Footer/Home5Footer";
 
 import caseStudyData from '@/data/case-study-data.json'
 import { slugify } from '@/utils/slugify'
@@ -23,7 +23,7 @@ const CaseStudyDetails = () => {
     return (
         <>
             <Header1 style={"inner-page"} fluid='container' />
-            <Breadcrum pageTitle={'Case Study Details'} pagename={'Case Study Details'} />
+            <Breadcrum pageTitle={'Case Study Details'} pagename={'Case Study Detailss'} />
             <div className="case-study-details-page pt-150 mb-120" id="scroll-section">
                 <div className="container">
                     <div className="case-study-details-top-area mb-50">
@@ -287,7 +287,7 @@ const CaseStudyDetails = () => {
                 </div>
             </div>
 
-            <Footer1 />
+            <Home5Footer/>
         </>
     )
 }

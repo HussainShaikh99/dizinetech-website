@@ -17,7 +17,7 @@ const Home2Service = () => {
                                         <path d="M2.5 7L0 7L3.5 3.5L6.11959e-07 -5.24537e-07L2.5 -3.0598e-07L6 3.5L2.5 7Z" />
                                     </svg>
                                 </span>
-                                <h2>Solutions for your Success The <span>Magic Behind.</span></h2>
+                                <h2>LET'S BUILD SOMETHING<span> GREAT</span></h2>
                             </div>
                         </div>
                     </div>

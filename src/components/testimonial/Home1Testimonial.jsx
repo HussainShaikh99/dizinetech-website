@@ -58,7 +58,7 @@ const Home1Testimonial = () => {
     };
   }, []);
   return (
-    <div className="home1-testimonial-section mb-120">
+    <div className="home1-testimonial-section">
       <div className="container">
         <div className="row align-items-lg-end g-4 mb-70">
           <div className="col-xl-7 col-lg-8">
@@ -94,9 +94,7 @@ const Home1Testimonial = () => {
                 <div className="testimonial-card">
                   <div className="author-and-quote-area">
                     <div className="author-area">
-                      <div className="author-img">
-                        <img src="assets/img/home1/testimonial-author-img1.png" alt="" />
-                      </div>
+                      
                       <div className="author-name-and-desig">
                         <h4>Mateo Theodo</h4>
                         <span>CEO At zenfy.com</span>
@@ -116,9 +114,7 @@ const Home1Testimonial = () => {
                 <div className="testimonial-card">
                   <div className="author-and-quote-area">
                     <div className="author-area">
-                      <div className="author-img">
-                        <img src="assets/img/home1/testimonial-author-img2.png" alt="" />
-                      </div>
+                      
                       <div className="author-name-and-desig">
                         <h4>Camila Eleano</h4>
                         <span>CEO At triprex.com</span>
@@ -138,9 +134,7 @@ const Home1Testimonial = () => {
                 <div className="testimonial-card">
                   <div className="author-and-quote-area">
                     <div className="author-area">
-                      <div className="author-img">
-                        <img src="assets/img/home1/testimonial-author-img3.png" alt="" />
-                      </div>
+                      
                       <div className="author-name-and-desig">
                         <h4>Scarlett Emily</h4>
                         <span>CEO At beautico.com</span>
@@ -160,9 +154,7 @@ const Home1Testimonial = () => {
                 <div className="testimonial-card">
                   <div className="author-and-quote-area">
                     <div className="author-area">
-                      <div className="author-img">
-                        <img src="assets/img/home1/testimonial-author-img4.png" alt="" />
-                      </div>
+                     
                       <div className="author-name-and-desig">
                         <h4>David Jackson</h4>
                         <span>CEO At turio.com</span>
@@ -182,9 +174,7 @@ const Home1Testimonial = () => {
                 <div className="testimonial-card">
                   <div className="author-and-quote-area">
                     <div className="author-area">
-                      <div className="author-img">
-                        <img src="assets/img/home1/testimonial-author-img5.png" alt="" />
-                      </div>
+                      
                       <div className="author-name-and-desig">
                         <h4>Owen Samuel</h4>
                         <span>CEO At scooby.com</span>
@@ -204,9 +194,7 @@ const Home1Testimonial = () => {
                 <div className="testimonial-card">
                   <div className="author-and-quote-area">
                     <div className="author-area">
-                      <div className="author-img">
-                        <img src="assets/img/home1/testimonial-author-img6.png" alt="" />
-                      </div>
+                      
                       <div className="author-name-and-desig">
                         <h4>Amelia Sophia</h4>
                         <span>CEO At probid.com</span>

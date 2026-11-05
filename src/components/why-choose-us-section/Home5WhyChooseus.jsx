@@ -1,37 +1,100 @@
-import Link from 'next/link'
-import React from 'react'
+import React from "react";
+
+const processData = [
+  {
+    number: "01",
+    title: "Understand Your Business",
+    description:
+      "We learn your goals, audience, and business needs before planning the right solution.",
+    image: "assets/img/home-1.webp",
+  },
+  {
+    number: "02",
+    title: "Strategy & Planning",
+    description:
+      "We create a clear roadmap covering design, development, SEO, and project milestones.",
+    image: "assets/img/home-2.webp",
+  },
+  {
+    number: "03",
+    title: "Design & Development",
+    description:
+      "We build fast, secure, and scalable websites with modern technologies and best practices.",
+    image: "assets/img/home-1.webp",
+  },
+  {
+    number: "04",
+    title: "Launch & Growth",
+    description:
+      "After launch, we provide optimization, maintenance, and ongoing support for long-term success.",
+    image: "assets/img/home-3.webp",
+  },
+];
 
 const Home5WhyChooseus = () => {
-    return (
-        <>
-            <div className="home5-why-choose-section mb-120">
-                <div className="container">
-                    <div className="row g-lg-4 gy-5 align-items-center">
-                        <div className="col-lg-6">
-                            <div className="why-choose-img magnetic-item">
-                                <img src="assets/img/home5/home5-why-choose-img.jpg" alt="" />
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="why-choose-content">
-                                <div className="section-title four text-animation">
-                                    <span className="sub-title">About Nexaq</span>
-                                    <h2>The Secret Weapon for Your <span>Business Success</span> Choose the Best.</h2>
-                                </div>
-                                <div className="content-and-btn text-animation">
-                                    <p>We understand your needs and deliver digital marketing through unique selling proposition. Our team of experts is passionate about helping you SEO company. Choose us and experience the difference! Looking for something different?  We challenge the status quo with innovative solutions and a [company culture adjective] approach. Let us show you how we can help you achieve desired outcome in a way you won't expect.</p>
-                                    <Link href="/about" className="primary-btn2 three" data-text="About Us More">
-                                        <span>About Us More</span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  return (
+    <div className="our-process-section mb-120">
+      <div className="container">
+
+        {/* Section Heading */}
+        <div className="section-title four text-center text-animation">
+          <span className="sub-title">OUR PROCESS</span>
+
+          <h2>
+            How We Transform <span>Ideas Into Digital Success</span>
+          </h2>
+
+          <p className="process-description">
+            Our proven process combines strategy, creativity, and technology to
+            deliver high-performing digital solutions that help your business
+            grow with confidence.
+          </p>
+        </div>
+
+        {/* Cards */}
+        <div className="row g-4 mt-30">
+          {processData.map((item, index) => (
+            <div className="col-lg-3 col-md-6" key={index}>
+
+              <div className="process-card">
+
+                {/* Background Image */}
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="process-bg"
+                />
+
+                {/* Dark Overlay */}
+                <div className="process-overlay"></div>
+
+                {/* Content */}
+                <div className="process-content">
+
+                  <span className="process-number">
+                    {item.number}
+                  </span>
+
+                  <h4>{item.title}</h4>
+
+                  <p>{item.description}</p>
+
+                  {/* <a href="#" className="process-link">
+                    Learn More
+                    <i className="bi bi-arrow-up-right"></i>
+                  </a> */}
+
                 </div>
+
+              </div>
+
             </div>
+          ))}
+        </div>
 
-        </>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Home5WhyChooseus
+export default Home5WhyChooseus;

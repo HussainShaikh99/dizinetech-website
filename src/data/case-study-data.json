@@ -1,187 +1,85 @@
 {
-    "case_study_card": [
-        {
-            "id": "1",
-            "tag": "Driving Growth",
-            "category": "Email Marketing",
-            "title": "Navigai Growth Startup Agency Success.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img1.jpg",
-            "client_name": "TechVision Inc.",
-            "location": "123 Innovation Avenue, San Francisco",
-            "industry": "AI and Machine Learning",
-            "stack": "Python, TensorFlow, AWS",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "2",
-            "tag": "Marketing Consulting",
-            "category": "Marketing Consulting",
-            "title": "From Local to Glo DEF How Our Strategies.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img2.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "3",
-            "tag": "Marketing Insights",
-            "category": "Marketing Insights",
-            "title": "Boosts Online Presence Comprehensive.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img3.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "4",
-            "tag": "Startup Company",
-            "category": "Startup Company",
-            "title": "Unlocking New Markets Strategic Marketing.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img4.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "5",
-            "tag": "Social Media",
-            "category": "Social Media",
-            "title": "How One Local Was Changed by Our PPC.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img5.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "6",
-            "tag": "Advertising Achieve",
-            "category": "Advertising Achieve",
-            "title": "How We’re Helped To Achieve Marketing.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img6.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "7",
-            "tag": "Driving Growth",
-            "category": "Driving Growth",
-            "title": "Redesigning The A Whole Brand Identity.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img7.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "8",
-            "tag": "Advertising Achieve",
-            "category": "Advertising Achieve",
-            "title": "The Power of Digital Talked Marketing Agency.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img8.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        ,
-        {
-            "id": "9",
-            "tag": "Social Media",
-            "category": "Social Media",
-            "title": "Conquering New Markets International Expand.",
-            "content":"We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "cover_image": "/assets/img/home4/portfolio-img9.jpg",
-            "client_name": "Egens Lab",
-            "location": "7 Lake Street, London",
-            "industry": "Software Agency",
-            "stack": "Email, Social, SEO",
-            "thumbnail_image": "/assets/img/inner-pages/case-study-details-thumb-img.jpg",
-            "client_designation": "CEO, Navigai",
-            "client_review": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_author": "John Doe",
-            "client_review_designation": "CEO, Navigai",
-            "client_review_content": "We understand you need & deliver digital marketing through unique selling onsetab proposition Our team expert.",
-            "client_review_image": "/assets/img/home4/portfolio-quote-img1.png"
-        }
-        
-
-        
-
-    ]
+  "case_study_card": [
+    {
+      "id": 1,
+      "title": "Zyftt - Corporate Gifting E-commerce Platform",
+      "tag": "Website Development, MERN Stack Development, Ecommmerce",
+      "content": "Zyftt is a corporate gifting e-commerce platform designed to simplify bulk ordering and personalized gifting for businesses. Developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js), the platform offers a seamless shopping experience with built-in product customization capabilities. Customers can personalize products by adding their company logos and custom text directly to product designs before placing orders. The platform streamlines the corporate gifting process, making it easier for businesses to discover, customize, and order products in bulk. With its user-friendly interface and flexible customization features, Zyftt delivers a convenient and efficient solution for businesses looking for personalized corporate gifts.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-1.webp",
+      "website_url": "https://zyftt.com"
+    },
+    {
+      "id": 2,
+      "title": "Pramara – Promotional Marketing & Toy Manufacturing",
+      "tag": "WORDPRESS DEVELOPMENT, CORPORATE WEBSITE, MANUFACTURING",
+      "content": "Pramara is an NSE-listed company and one of India’s leading promotional marketing agencies and toy manufacturers, creating promotional toys for some of the world’s biggest brands. We developed Pramara’s website using WordPress to showcase its industry experience, diverse product portfolio, and manufacturing capabilities. The website highlights the company’s expertise in promotional marketing, its range of products, and its factory infrastructure, giving potential clients a clear understanding of its capabilities and experience. With a professional digital presence, the website helps communicate Pramara’s strengths and the scale of its manufacturing operations to businesses and global brands.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-2.webp",
+      "website_url": "https://pramara.com"
+    },
+    {
+      "id": 3,
+      "title": "Moaadi – Construction Materials & Auto Parts Marketplace",
+      "tag": "MERN STACK DEVELOPMENT, B2B MARKETPLACE, ADMIN DASHBOARD",
+      "content": "MOAADI is a Saudi-based digital marketplace connecting buyers, suppliers, and businesses across the construction materials and auto parts industries. The platform simplifies procurement by bringing purchase requests, supplier quotations, offer comparisons, and supplier selection into one seamless digital experience. Dizinetech designed and developed the platform using the MERN stack, focusing on speed, performance, and ease of use. The solution features two dedicated dashboards: a user dashboard for managing profiles, RFQs, and quotations, and a comprehensive Super Admin dashboard for managing users, monitoring platform activity, handling real-time support and messaging, and accessing detailed RFQ and quotation reports. Built to serve a diverse user base, MOAADI also supports both English and Arabic, with full right-to-left (RTL) layout support for Arabic users. The result is a feature-rich procurement platform designed to streamline business operations and make sourcing more efficient.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-3.webp",
+      "website_url": "https://moaadi.com/"
+    },
+    {
+      "id": 4,
+      "title": "Sands Design – Architecture & Interior Design Portfolio",
+      "tag": "WORDPRESS DEVELOPMENT, ARCHITECTURE, INTERIOR DESIGN",
+      "content": "With 25 years of experience, Sands Design specializes in creating unique, personalized spaces that reflect each client’s vision and style. Previously, the firm relied on sharing project images through WhatsApp to showcase its work, without a dedicated digital portfolio. Dizinetech developed a WordPress portfolio website to bring their projects together in one professional online destination. The website showcases their architectural and interior design work, helps potential clients explore their design expertise, and makes it easier for visitors to enquire about projects. This digital presence gives Sands Design a dedicated platform to present its experience, build trust with prospective clients, and turn its portfolio into new business opportunities.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-4.webp",
+      "website_url": "https://sandsdesign.in/"
+    },
+    {
+      "id": 5,
+      "title": "Glutape India Pvt. Ltd. – SEO & Organic Lead Generation",
+      "tag": "SEO, ORGANIC GROWTH, LEAD GENERATION",
+      "content": "Glutape India Pvt. Ltd. is a leading adhesive tape manufacturer and solution provider in India, offering a wide range of products for diverse industrial applications. When Glutape partnered with Dizinetech, their primary concern was generating qualified leads. Despite previously investing in SEO, they were struggling to rank for relevant keywords, attract organic traffic, and generate enquiries. We focused on improving their search visibility and aligning their SEO strategy with their business goals. Today, Glutape ranks on the first page of Google for targeted keywords and is generating leads through organic search, without relying on paid promotions. Our approach focuses on turning search visibility into meaningful business enquiries and sustainable organic growth.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-5.webp",
+      "website_url": "https://glutape.com"
+    },
+    {
+      "id": 6,
+      "title": "Dr. Vedic – Shopify E-commerce Website",
+      "tag": "SHOPIFY DEVELOPMENT, E-COMMERCE, WEBSITE PERFORMANCE",
+      "content": "Dr. Vedic blends the wisdom of Ayurveda with modern wellness to create thoughtfully crafted products for everyday health and vitality. The brand previously had an e-commerce website, but it struggled to generate orders, while slow loading speeds created a frustrating shopping experience that could drive potential customers away. At Dizinetech, we understood that the priority was to build a faster, more trustworthy online store focused on conversions. We developed a new Shopify website with an emphasis on website speed, a smooth shopping experience, and a professional brand presentation. The goal was to help customers browse products with confidence, reduce friction in the buying journey, and create a stronger foundation for online sales and business growth.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-6.webp",
+      "website_url": "https://drvedic.in/"
+    },
+    {
+      "id": 7,
+      "title": "TMA Enterprises – Custom E-commerce Platform",
+      "tag": "CUSTOM E-COMMERCE DEVELOPMENT, UI/UX DESIGN, ONLINE SALES",
+      "content": "TMA Enterprises is a youth-driven trading and distribution company offering an exciting range of board games, card games, retro gaming products, anime action figures, RC games, and collectible katanas. The brand wanted an e-commerce website that reflected its youthful energy while keeping navigation simple and shopping effortless. At Dizinetech, we designed and developed a fully custom e-commerce website tailored to the brand’s identity and customer expectations. Our focus was on creating an engaging visual experience, intuitive navigation, and a seamless product discovery and purchasing journey. Today, the website supports TMA Enterprises’ online business, helping the brand generate strong monthly sales and connect its diverse product range with its target audience.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-7.webp",
+      "website_url": "https://tmaenterprises.co/"
+    },
+    {
+      "id": 8,
+      "title": "Rosy World – Travel & Group Adventures",
+      "tag": "WORDPRESS DEVELOPMENT, TRAVEL WEBSITE, UI/UX DESIGN",
+      "content": "Rosy World is a Mumbai-based travel company powered by a passionate team of travel experts who believe every journey should be filled with unforgettable memories. With a youthful, energetic spirit and a love for exploration, the team creates group travel experiences designed to bring people together through adventure. Dizinetech developed a website that captures Rosy World’s vibrant personality and the excitement of travelling with its team. The website showcases travel destinations, detailed itineraries, tour packages, and pricing, helping visitors explore upcoming adventures and find trips that match their interests and budgets. With an engaging visual experience and easy-to-navigate structure, the platform makes discovering travel plans simpler while helping potential travellers learn more about each journey and enquire about their next adventure.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-8.webp",
+      "website_url": "https://rosyworld.co/"
+    },
+    {
+      "id": 9,
+      "title": "Jamaan Contracting – MEP & Civil Contracting",
+      "tag": "WORDPRESS DEVELOPMENT, CORPORATE WEBSITE, BRAND IDENTITY",
+      "content": "Jamaan Contracting is a Saudi Arabia-based MEP and civil contracting company with over 17 years of experience, known for delivering quality, innovation, and reliability across its projects. Despite its extensive industry experience, the company had no dedicated website, while many of its competitors already had an established online presence. This limited its visibility on Google and made it harder to build trust with potential clients researching contracting companies online. Jamaan wanted more than just a website. The goal was to create a strong digital presence that would position the company ahead of competitors in its category through professional branding, a distinctive layout, and excellent website performance. Dizinetech designed and developed a corporate website that brings Jamaan’s expertise, services, and industry experience together in a polished digital portfolio. The result is a professional online platform that strengthens the company's credibility, showcases its capabilities, and helps it make a stronger impression on potential clients.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-9.webp",
+      "website_url": "https://jamaancontracting.com/"
+    },
+    {
+      "id": 10,
+      "title": "SNZ Design – SEO & Local Business Growth",
+      "tag": "SEO, GOOGLE BUSINESS PROFILE, LOCAL SEO, LEAD GENERATION",
+      "content": "SNZ Design is a Mumbai-based interior design firm specializing in creating thoughtfully designed spaces that combine aesthetics, functionality, and individual client preferences. Dizinetech partnered with SNZ Design to strengthen its online visibility and help the business reach potential clients actively searching for interior design services. Our approach focuses on improving search engine rankings, optimizing its Google Business Profile, and strengthening its local presence across relevant searches in Mumbai. Through ongoing SEO and Google Business Profile marketing, we aim to connect the brand with more relevant local audiences, build trust through its online presence, and turn search visibility into valuable business enquiries.",
+      "cover_image": "/assets/img/portfolio/dizinetech-portfolio-10.webp",
+      "website_url": "https://www.snzdesigns.com/"
+    }
+    
+  ]
 }

@@ -13,88 +13,43 @@ const Home5Footer = () => {
                                     <div className="logo-and-rating-area">
                                         <div className="footer-logo">
                                             <Link href="/">
-                                                <img src="assets/img/footer-logo-white.svg" alt="" />
+                                                <img src="assets/img/dz-logo-new.png" alt="" />
                                             </Link>
                                         </div>
                                         <div className="content">
-                                            <p>Welcome to Nexaq, where innovation meets our passion in a journey that started dream.</p>
+                                            <p>We design and build high-performance websites, SEO strategies, and AI solutions that help businesses grow and stay ahead in a digital-first world.</p>
                                         </div>
-                                        <ul className="rating-area">
-                                            <li>
-                                                <a href="https://clutch.co/" className="single-rating">
-                                                    <div className="review">
-                                                        <span>Review On</span>
-                                                        <img src="assets/img/home2/icon/clutch-logo-white.svg" alt="" />
-                                                    </div>
-                                                    <div className="rating">
-                                                        <ul className="star">
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-half" /></li>
-                                                        </ul>
-                                                        <span>(50 reviews)</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.google.com/" className="single-rating google">
-                                                    <div className="review">
-                                                        <span>Review On</span>
-                                                        <img src="assets/img/home1/icon/google-logo.svg" alt="" />
-                                                    </div>
-                                                    <div className="rating">
-                                                        <ul className="star">
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-fill" /></li>
-                                                            <li><i className="bi bi-star-half" /></li>
-                                                        </ul>
-                                                        <span>(50 reviews)</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="author-and-social-area">
                                         <div className="author-area">
-                                            <div className="author-img">
+                                            {/* <div className="author-img">
                                                 <img src="assets/img/home1/footer-top-author-img.png" alt="" />
-                                            </div>
+                                            </div> */}
                                             <div className="author-contact">
-                                                <h6>Talk to our growth expert</h6>
-                                                <a href="tel:29658718617">2-965-871-8617</a>
+                                                <h6>Talk to our expert</h6>
+                                                <a href="tel:+918591754209">+91 85917 54209</a>
                                             </div>
                                         </div>
                                         <span>Or</span>
                                         <div className="social-area">
                                             <h6>Talk To Social Media</h6>
-                                            <ul className="social-list">
-                                                <li>
-                                                    <a href="https://www.linkedin.com/">
-                                                        <i className="bi bi-linkedin" />
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.facebook.com/">
-                                                        <i className="bi bi-facebook" />
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://twitter.com/">
-                                                        <i className="bi bi-twitter-x" />
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.instagram.com/">
-                                                        <i className="bi bi-instagram" />
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                             <ul className="social-list">
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/dizine-tech/">
+                                                    <i className="bi bi-linkedin" />
+                                                </a>
+                                            </li>
+                                          
+                                    
+                                            <li>
+                                                <a href="https://www.instagram.com/dizine_tech/">
+                                                    <i className="bi bi-instagram" />
+                                                </a>
+                                            </li>
+                                        </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -121,66 +76,53 @@ const Home5Footer = () => {
                     <div className="container">
                         <div className="footer-menu-wrap">
                             <div className="row gy-5">
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-6 col-md-6">
                                     <div className="footer-widget">
                                         <div className="widget-title">
                                             <h4>What We Do</h4>
                                         </div>
                                         <div className="menu-container">
                                             <ul className="widget-list">
-                                                <li><Link href="/service-details">Search Engine</Link></li>
-                                                <li><Link href="/service-details">Paid Search</Link></li>
-                                                <li><Link href="/service-details">Social Media</Link></li>
-                                                <li><Link href="/service-details">Email Marketing</Link></li>
-                                                <li><Link href="/service-details">Content Marketing</Link></li>
+                                                <li><Link href="/web-and-app-development">WordPress Development</Link></li>
+                                                <li><Link href="/web-and-app-development">Shopify Development</Link></li>
+                                                <li><Link href="/web-and-app-development">Landing Page Development</Link></li>
+                                                <li><Link href="/web-and-app-development">Portfolio Website Development</Link></li>
+                                                <li><Link href="/web-and-app-development">Ecommerce Website Development</Link></li>
+                                                <li><Link href="/web-and-app-development">Website Maintenance</Link></li>
                                             </ul>
                                             <ul className="widget-list">
-                                                <li><Link href="/service-details">Content Marketing</Link></li>
-                                                <li><Link href="/service-details">Earned Social</Link></li>
-                                                <li><Link href="/service-details">Websites Martsch</Link></li>
-                                                <li><Link href="/service-details">Strategy &amp; B2B SEO</Link></li>
+                                                <li><Link href="/software-development">Software Development</Link></li>
+                                                <li><Link href="/web-and-app-development">CRM Development</Link></li>
+                                                <li><Link href="/web-and-app-development">Custom MERN Stack Development</Link></li>
+                                                <li><Link href="/ai-solutions">Business AI Agent Development</Link></li>
+                                                <li><Link href="/seo-and-growth">Search Engine Optimization</Link></li>
+                                                <li><Link href="/seo-and-growth">AEO and GEO</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 d-flex justify-content-md-end">
+                                <div className="col-lg-3 col-md-6 d-flex justify-content-md-end">
                                     <div className="footer-widget pr-30">
                                         <div className="widget-title">
                                             <h4>Company</h4>
                                         </div>
                                         <div className="menu-container">
                                             <ul className="widget-list">
-                                                <li><Link href="/about">About us</Link></li>
-                                                <li><Link href="/case-study">Case Studies</Link></li>
-                                                <li><Link href="/team">Meet The Team</Link></li>
-                                                <li><Link href="/career-list">Careers</Link></li>
-                                                <li><Link href="/blog">Blog &amp; Article</Link></li>
+                                                <li><Link href="/about">About Us</Link></li>
+                                                <li><Link href="/portfolio">Portfolio</Link></li>
+                                                
+                                                <li><Link href="/careers">Careers</Link></li>
+                                                <li><Link href="/contact">Contact Us</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 d-flex justify-content-lg-end">
+                                <div className="col-lg-3 col-md-6 d-flex justify-content-lg-end">
                                     <div className="footer-widget">
                                         <div className="widget-title">
-                                            <h4>Who we are</h4>
+                                            <h4>Connect Us</h4>
                                         </div>
-                                        <div className="menu-container">
-                                            <ul className="widget-list">
-                                                <li><a href="#">Marketing Leaders</a></li>
-                                                <li><a href="#">Success Stories</a></li>
-                                                <li><a href="#">Awards</a></li>
-                                                <li><a href="#">Marketing Insights</a></li>
-                                                <li><a href="#">Resources</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="footer-contact-wrap">
-                        <div className="container">
-                            <div className="contact-area">
+                                         <div className="contact-area Footer-contact-details">
                                 <div className="hotline-area">
                                     <div className="icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width={33} height={33} viewBox="0 0 33 33">
@@ -193,7 +135,7 @@ const Home5Footer = () => {
                                     </div>
                                     <div className="content">
                                         <span>Call Any Time</span>
-                                        <h6><a href="tel:29658718617">2-965-871-8617</a></h6>
+                                        <h6><a href="tel:+918591754209">+91 85917 54209</a></h6>
                                     </div>
                                 </div>
                                 <div className="hotline-area">
@@ -207,7 +149,7 @@ const Home5Footer = () => {
                                     </div>
                                     <div className="content">
                                         <span>Address</span>
-                                        <h6><a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">Dhaka, Bangladesh</a></h6>
+                                        <h6><a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">Oshiwara, Mumbai, India</a></h6>
                                     </div>
                                 </div>
                                 <div className="hotline-area">
@@ -220,22 +162,25 @@ const Home5Footer = () => {
                                     </div>
                                     <div className="content">
                                         <span>Say Hello</span>
-                                        <h6><a href="mailto:info@example.com">info@example.com</a></h6>
+                                        <h6><a href="mailto:info@dizinetech.com">info@dizinetech.com</a></h6>
+                                    </div>
+                                </div>
+                            </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                     <div className="footer-bottom-wrap">
                         <div className="container">
                             <div className="footer-bottom">
                                 <div className="copyright-area">
-                                    <p>Copyright 2024 <a href="#">Nexaq</a> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                                    <p>Copyright 2026 <a href="www.dizinetech.com">DizineTech</a> | All Right Reserved</p>
                                 </div>
                                 <div className="footer-bottom-right">
                                     <ul>
-                                        <li><a href="#">Support Policy</a></li>
-                                        <li><Link href="/terms-condition">Terms &amp; Conditions</Link></li>
+                                        
                                         <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                                     </ul>
                                 </div>

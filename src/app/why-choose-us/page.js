@@ -1,7 +1,7 @@
 import React from 'react'
 import Header1 from '@/components/header/Header1'
 import Breadcrum from '@/components/common/Breadcrum'
-import Footer1 from '@/components/Footer/Footer1'
+import Home5Footer from '@/components/Footer/Home5Footer'
 import Home1ProcessSection from '@/components/process-section/Home1ProcessSection'
 import Home1Contact from '@/components/contact/Home1Contact'
 import Home1Testimonial from '@/components/testimonial/Home1Testimonial'
@@ -22,7 +22,7 @@ const WhyChooseUse = () => {
             <Home3About />
             <Home1Testimonial />
             <Home1Team />
-            <Footer1 />
+            <Home5Footer/>
         </>
     )
 }

@@ -90,7 +90,7 @@ const Header4 = () => {
                 }`}>
                 <div className="sidebar-logo-area d-flex justify-content-between align-items-center">
                     <div className="sidebar-logo-wrap">
-                        <Link href="/"><img alt="image" src="/assets/img/logo.svg" /></Link>
+                        <Link href="/"><img alt="image" src="/assets/img/DizineTech-Logo-2.png" /></Link>
                     </div>
                     <div className="right-sidebar-close-btn" onClick={toggleRightSidebar}>
                         <i className="bi bi-x" />

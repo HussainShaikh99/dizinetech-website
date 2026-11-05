@@ -12,14 +12,18 @@ const Home5banner = () => {
         <>
             <div className="home5-banner-section" ref={ref}>
                 <div className="container">
-                    <div className="row justify-content-center">
+                    <div className="row ">
                         <div className="col-lg-10">
                             <div className="banner-content">
-                                <h1>Pushing the <span>boundaries of</span> marketing.</h1>
-                                <p>Sed nisl eros, condimentum nec risus sit amet, finibus congue sem. Fusce fringilla est libero, sed tempus urna feugiat eu. Curabitur eu feugiat ligula. Suspendisse nectoraba porttitor velit go this week for work.</p>
+                                <h1>One Partner for <br></br><span class="heading-color">Websites, SEO & AI Solutions.</span></h1>
+                                <p>We help businesses establish a powerful digital presence through high-performance websites, strategic SEO, and innovative AI solutions that drive growth, improve efficiency, and deliver measurable results.</p>
+                                <div className="btn-area banner-btn d-flex">
+                            <a href="https://wa.me/918591754209" target="_blank" className="primary-btn" data-text="Let's Talk"><span>Let's Talk</span></a>
+                            <a href="/portfolio" className="primary-btn banner-btn-2 home-banner-btn2" data-text="Explore Portfolio"><span>Explore Portfolio</span></a>
+                        </div>
                             </div>
                         </div>
-                        <div className="col-lg-12 d-flex justify-content-center">
+                        {/* <div className="col-lg-12 d-flex justify-content-center">
                             <div className="banner-img">
                                 <img src="assets/img/home5/home5-banner-map.png" alt="" />
                                 <ul className="tag">
@@ -30,10 +34,10 @@ const Home5banner = () => {
                                     <li className="style-3">SEO Analysis</li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
-                <div className="single-countdown">
+                {/* <div className="single-countdown">
                     <div className="countdown-area">
                         <div className="number">
                             <h3 className="counter">{inView ? <CountUp end={40} duration={2} /> : '0'}</h3>
@@ -52,7 +56,7 @@ const Home5banner = () => {
                         <p>Google And Facebook Certified Team.</p>
                     </div>
                     <div className="countdown-bottom" />
-                </div>
+                </div> */}
             </div>
 
         </>

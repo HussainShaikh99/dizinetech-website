@@ -16,7 +16,7 @@ const Footer1 = () => {
                                         </Link>
                                     </div>
                                     <div className="content">
-                                        <p>Welcome to Nexaq, where innovation meets our passion in a journey that started dream.</p>
+                                        <p>Helping businesses build a stronger digital presence through modern websites, SEO, AI solutions, and long-term technology partnerships.</p>
                                     </div>
                                     <ul className="rating-area">
                                         <li>
@@ -74,22 +74,14 @@ const Footer1 = () => {
                                         <h6>Talk To Social Media</h6>
                                         <ul className="social-list">
                                             <li>
-                                                <a href="https://www.linkedin.com/">
+                                                <a href="https://www.linkedin.com/company/dizine-tech/">
                                                     <i className="bi bi-linkedin" />
                                                 </a>
                                             </li>
+                                          
+                                    
                                             <li>
-                                                <a href="https://www.facebook.com/">
-                                                    <i className="bi bi-facebook" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://twitter.com/">
-                                                    <i className="bi bi-twitter-x" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.instagram.com/">
+                                                <a href="https://www.instagram.com/dizine_tech/">
                                                     <i className="bi bi-instagram" />
                                                 </a>
                                             </li>
@@ -229,7 +221,7 @@ const Footer1 = () => {
                     <div className="container">
                         <div className="footer-bottom">
                             <div className="copyright-area">
-                                <p>Copyright 2024 <a href="#">Nexaq</a> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                                <p>Copyright 2026 <a href="#">DizineTech</a> | All Right Reserved</p>
                             </div>
                             <div className="footer-bottom-right">
                                 <ul>

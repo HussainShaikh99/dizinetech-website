@@ -1,23 +1,23 @@
-"use client"
-import Link from 'next/link'
-import React, { useState } from 'react'
+"use client";
+import Link from "next/link";
+import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 const Home1About = ({ sectionGap }) => {
-    const [isOpen, setOpen] = useState(false);
-    return (
-        <div className={`home1-about-section mb-120 ${sectionGap}`}>
-            <div className="container">
-                <div className="about-top-area mb-110">
+  const [isOpen, setOpen] = useState(false);
+  return (
+    <div className={`home1-about-section mb-120 ${sectionGap}`}>
+      <div className="container">
+        {/* <div className="about-top-area mb-110">
                     <div className="row align-items-center g-4 mb-60">
                         <div className="col-lg-6">
                             <div className="section-title text-animation">
                                 <span className="sub-title">Who We Are</span>
-                                <h2>Unleash Your <span>Marketing Potential</span> Meet The Team Behind Nexaq.</h2>
+                                <h2>Helping Businesses <span> Build, Grow & Automate Online.</span></h2>
                             </div>
                         </div>
                         <div className="col-lg-6 d-flex justify-content-end">
                             <div className="section-top-content text-animation">
-                                <p>Sed nisl eros, condimentum nec risus sit amet, finibus conguese.Fusen fringilla est libero, sed tempus urna feugiat eu. Curabitur eu feugiat ligu Suspendisse nectoraba porttitor velit go this week and more about.</p>
+                                <p>Dizinetech helps businesses establish a stronger digital presence through modern websites, ecommerce solutions, SEO strategies, and AI-powered automation. We combine creativity, technology, and business thinking to build solutions that create measurable results.</p>
                                 <Link href="/about" className="learn-btn">
                                     <span>More About Us</span>
                                     <svg width={15} height={9} viewBox="0 0 15 9" xmlns="http://www.w3.org/2000/svg">
@@ -41,8 +41,8 @@ const Home1About = ({ sectionGap }) => {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h4>Better Audiences</h4>
-                                    <p>Explores strategies for reaching and engaging the most relevant and responsive audiences.</p>
+                                    <h4>Strategy-Driven</h4>
+                                    <p>Every project begins with understanding your business, audience, and goals before development begins.</p>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ const Home1About = ({ sectionGap }) => {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h4>Better Analytics</h4>
-                                    <p>Focuses on enhancing data analysis to provide more accurate decision-making.</p>
+                                    <h4>Built for Growth</h4>
+                                    <p>We create websites and digital solutions designed to increase leads, improve performance, and drive growth.</p>
                                 </div>
                             </div>
                         </div>
@@ -73,52 +73,82 @@ const Home1About = ({ sectionGap }) => {
                                     </svg>
                                 </div>
                                 <div className="content">
-                                    <h4>Better Outcomes</h4>
-                                    <p>Better outcomes requires a strategic approach that encompasses consistent execution.</p>
+                                    <h4>Long-Term Partnership</h4>
+                                    <p>From launch to continuous improvements, we're here to support your business and future growth journey.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="about-bottom-area">
-                    <div className="row g-lg-4 gy-5">
-                        <div className="col-lg-6">
-                            <div className="about-video-area magnetic-item">
-                                <a style={{ cursor: "pointer" }} onClick={() => setOpen(true)} className="video-player" data-cursor="Watch <br> Reel">
-                                    <img src="/assets/img/home1/home1-about-video-img.jpg" alt="" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="about-bottom-content text-animation">
-                                <div className="section-title">
-                                    <h2>The Secret Weapon for Your <span>Business Success</span> Choose The Best.</h2>
-                                </div>
-                                <div className="content-and-btn">
-                                    <p>We understand your needs and deliver digital marketing through unique selling proposition. Our team of experts is passionate about helping you SEO company. Choose us and experience the difference! Looking for something different?  We challenge the status quo with innovative solutions and a [company culture adjective] approach.  Let us show you how we can help you achieve desired outcome in a way you won't expect.</p>
-                                    <Link href="/about" className="primary-btn2" data-text="About Us More">
-                                        <span>About Us More</span>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> */}
+        <div className="about-bottom-area">
+          <div className="row g-lg-4 gy-5">
+            <div className="col-lg-6">
+              <div className="about-video-area magnetic-item">
+                <a
+                  style={{ cursor: "pointer" }}
+                  onClick={() => setOpen(true)}
+                  className="video-player"
+                  data-cursor="Watch <br> Reel"
+                >
+                  <img
+                    src="/assets/img/about-1.webp"
+                    alt="about Dizinetech"
+                  />
+                </a>
+              </div>
             </div>
-            <React.Fragment>
-                <ModalVideo
-                    channel="youtube"
-                    onClick={() => setOpen(true)}
-                    isOpen={isOpen}
-                    animationSpeed="350"
-                    videoId="r4KpWiK08vM"
-                    ratio="16:9"
-                    onClose={() => setOpen(false)}
-                />
-            </React.Fragment>
+            <div className="col-lg-6">
+              <div className="about-bottom-content text-animation">
+              
+                <div className="section-title">
+                <span className="sub-title">ABOUT US</span>
+                  <h2>
+                    Building Digital Solutions{" "}
+                    <span>That Help Businesses Grow With Confidence.</span>
+                  </h2>
+                </div>
+                <div className="content-and-btn">
+                  <p>
+                    Dizinetech was founded with a simple goal—to help businesses
+                    establish a strong digital presence through modern websites,
+                    strategic SEO, and AI-powered solutions. We combine
+                    thoughtful design, reliable development, and growth-focused
+                    strategies to create digital experiences that deliver
+                    lasting value.
+                    
+                    Every business is different, which is why we don't believe
+                    in one-size-fits-all solutions. Whether you're launching a
+                    new brand, growing an existing business, or improving your
+                    online presence, we focus on building solutions that are
+                    practical, scalable, and aligned with your long-term goals.</p>
+                  
+
+                  <Link
+                    href="/contact"
+                    className="primary-btn2"
+                    data-text="Contact Us"
+                  >
+                    <span>Contact Us</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <React.Fragment>
+        <ModalVideo
+          channel="youtube"
+          onClick={() => setOpen(true)}
+          isOpen={isOpen}
+          animationSpeed="350"
+          videoId="r4KpWiK08vM"
+          ratio="16:9"
+          onClose={() => setOpen(false)}
+        />
+      </React.Fragment>
+    </div>
+  );
+};
 
-    )
-}
-
-export default Home1About
+export default Home1About;

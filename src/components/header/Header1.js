@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useReducer, useRef } from 'react'
+import React, { useEffect, useReducer, useRef, useState } from 'react'
 import navData from "../../data/nav.json"
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -57,6 +57,7 @@ function reducer(state, action) {
 const Header1 = ({ style = "", fluid = "" }) => {
 
     const [state, dispatch] = useReducer(reducer, initialState);
+    const [showAnalysisForm, setShowAnalysisForm] = useState(false);
     const headerRef = useRef(null);
     const pathname = usePathname()
     const handleScroll = () => {
@@ -91,7 +92,7 @@ const Header1 = ({ style = "", fluid = "" }) => {
                 }`}>
                 <div className="sidebar-logo-area d-flex justify-content-between align-items-center">
                     <div className="sidebar-logo-wrap">
-                        <Link href="/"><img alt="image" src="/assets/img/logo.svg" /></Link>
+                        <Link href="/"><img alt="image" src="/assets/img/dz-logo-new.png" /></Link>
                     </div>
                     <div className="right-sidebar-close-btn" onClick={toggleRightSidebar}>
                         <i className="bi bi-x" />
@@ -112,7 +113,7 @@ const Header1 = ({ style = "", fluid = "" }) => {
                                 </g>
                             </svg>
                         </span>
-                        <h2>Connect with Nexaq</h2>
+                        <h2>Connect with DizineTech</h2>
                         <p>Ready to take the first step towards unlocking opportuniti realizing goals, and embracing innovation?</p>
                     </div>
                     <ul className="contact-area">
@@ -126,7 +127,7 @@ const Header1 = ({ style = "", fluid = "" }) => {
                             </div>
                             <div className="content">
                                 <span>To More Inquiry</span>
-                                <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
+                                <h6><a href="tel:+918591754209">+91 85917 54209</a></h6>
                             </div>
                         </li>
                         <li className="single-contact">
@@ -141,7 +142,7 @@ const Header1 = ({ style = "", fluid = "" }) => {
                             </div>
                             <div className="content">
                                 <span>To Send Mail</span>
-                                <h6><a href="mailto:example@gmail.com">example@gmail.com</a></h6>
+                                <h6><a href="mailto:info@dizinetech.com">info@dizinetech.com</a></h6>
                             </div>
                         </li>
                         <li className="single-contact">
@@ -155,11 +156,11 @@ const Header1 = ({ style = "", fluid = "" }) => {
                                 </svg>
                             </div>
                             <div className="content">
-                                <span>Office Address 01</span>
-                                <h6><a href="#">168/170, Mirpur DOHS, Bangladesh</a></h6>
+                                <span>Office Address</span>
+                                <h6><a href="#">Oshiwara, Mumbai, India</a></h6>
                             </div>
                         </li>
-                        <li className="single-contact">
+                        {/* <li className="single-contact">
                             <div className="icon">
                                 <svg width={26} height={26} viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
                                     <g>
@@ -173,31 +174,19 @@ const Header1 = ({ style = "", fluid = "" }) => {
                                 <span>Office Address 02</span>
                                 <h6><a href="#">8204 Glen Ridge Drive Endicott, NY 13760</a></h6>
                             </div>
-                        </li>
+                        </li> */}
                     </ul>
                     <div className="social-area">
                         <h6>Social Just You Connected Us!</h6>
                         <ul className="social-list">
                             <li>
-                                <a href="https://www.linkedin.com/">
+                                <a href="https://www.linkedin.com/company/dizine-tech/" target="_blank" >
                                     <i className="bi bi-linkedin" />
                                     <span>LinkedIn</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/">
-                                    <i className="bi bi-facebook" />
-                                    <span>Facebook</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/">
-                                    <i className="bi bi-twitter-x" />
-                                    <span>Twitter</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/">
+                                <a href="https://www.instagram.com/dizine_tech/" target="_blank" >
                                     <i className="bi bi-instagram" />
                                     <span>Instagram</span>
                                 </a>
@@ -208,15 +197,17 @@ const Header1 = ({ style = "", fluid = "" }) => {
             </div>
 
             <header className={`header-area style-1 ${style} ${state.scrollY > 20 ? "sticky" : ""}`}>
+            <div className="container">
+            <div className="row">
                 <div className={`${fluid} d-flex flex-nowrap align-items-center justify-content-between`}>
                     <div className="header-logo">
-                        <Link href={"/"}><img alt="image" className="img-fluid" src={`/assets/img/${pathname === "/digital-marketing" || pathname === "/ai-seo-software" ? "logo-white2.svg" : "logo.svg"}`} /></Link>
+                        <Link href={"/"}><img alt="image" className="img-fluid" src={`/assets/img/dz-logo-new.png`} /></Link>
 
                     </div>
                     <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
-                        <div className="mobile-logo-area d-lg-none d-flex justify-content-center">
+                        <div className="mobile-logo-area d-lg-none d-flex justify-content-left">
                             <div className="mobile-logo-wrap">
-                                <Link href="/"><img alt="image" src="/assets/img/logo.svg" /></Link>
+                                <Link href="/"><img alt="image" src="/assets/img/dz-logo-new.png" /></Link>
                             </div>
                         </div>
                         <ul className="menu-list">
@@ -296,11 +287,15 @@ const Header1 = ({ style = "", fluid = "" }) => {
                             }
                         </ul>
                         <div className="btn-area d-lg-none d-flex justify-content-center">
-                            <a href="#" className="primary-btn" data-text="Free Analysis"><span>Free Analysis </span></a>
+                            <button type="button" className="primary-btn" data-text="Get a Quote" onClick={() => setShowAnalysisForm(true)}>
+                                <span>Get a Quote</span>
+                            </button>
                         </div>
                     </div>
                     <div className="nav-right d-flex jsutify-content-end align-items-center">
-                        <a href="#" className={`primary-btn d-lg-flex d-none ${pathname === "/seo-company" ? "two" : ""}`} data-text="Free Analysis"><span>Free Analysis </span></a>
+                        <button type="button" className={`primary-btn d-lg-flex d-none ${pathname === "/seo-company" ? "two" : ""}`} data-text="Free Analysis" onClick={() => setShowAnalysisForm(true)}>
+                            <span>Get a Quote</span>
+                        </button>
                         <div className="right-sidebar-button" onClick={toggleRightSidebar}>
                             <svg width={20} height={18} viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.29445 2.8421H10.5237C11.2389 2.8421 11.8182 2.2062 11.8182 1.42105C11.8182 0.635903 11.2389 0 10.5237 0H1.29445C0.579249 0 0 0.635903 0 1.42105C0 2.2062 0.579249 2.8421 1.29445 2.8421Z" />
@@ -318,7 +313,45 @@ const Header1 = ({ style = "", fluid = "" }) => {
                         </div>
                     </div>
                 </div>
+                </div>
+                </div>
             </header>
+
+            {showAnalysisForm && (
+                <div className="analysis-modal-overlay" onClick={() => setShowAnalysisForm(false)}>
+                    <div className="analysis-modal" role="dialog" aria-modal="true" aria-labelledby="analysis-modal-title" onClick={(e) => e.stopPropagation()}>
+                        <button type="button" className="analysis-modal-close" aria-label="Close form" onClick={() => setShowAnalysisForm(false)}>
+                            &times;
+                        </button>
+
+                        <h3 id="analysis-modal-title">Get Your Free Analysis</h3>
+                        <p>Tell us a little about your requirements. Our team will get back to you.</p>
+
+                        <form onSubmit={(e) => e.preventDefault()}>
+                            <input type="text" name="name" placeholder="Name" autoComplete="name" required />
+                            <input type="email" name="email" placeholder="Email Address" autoComplete="email" required />
+                            <input type="tel" name="phone" placeholder="Phone Number" autoComplete="tel" required />
+
+                            <select name="service" defaultValue="" required>
+                                <option value="" disabled>Choose Service</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="E-commerce Development">E-commerce Development</option>
+                                <option value="Software Development">Software Development</option>
+                                <option value="AI Solutions">AI Solutions</option>
+                                <option value="SEO & Digital Marketing">SEO &amp; Digital Marketing</option>
+                                <option value="Website Maintenance">Website Maintenance</option>
+                                <option value="Other">Other</option>
+                            </select>
+
+                            <textarea name="message" placeholder="Message" rows="2"  />
+
+                            <button type="submit" className="primary-btn" data-text="Submit Request">
+                                <span>Submit Request</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            )}
         </>
 
     )

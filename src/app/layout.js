@@ -17,6 +17,7 @@ import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/style.css";
 import "../../public/assets/css/dark-inner-pages.css";
 import "react-creative-cursor/dist/styles.css";
+import "../../public/assets/css/custom.css";
 import Script from "next/script";
 import AnimateCursor from "@/components/common/AnimateCursor";
 
@@ -219,15 +220,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link
-          rel="icon"
-          href="/assets/img/fav-icon.svg"
-          type="image/x-icon"
-          sizes="16x16"
+        <link rel="icon" href="/assets/img/fav-icon.svg" type="image/svg+xml" />
+        <meta
+          name="description"
+          content="Dizinetech is a digital agency providing web development, software development, SEO, AEO, GEO, and AI solutions to help businesses grow online."
         />
-        <meta name="description" content="Your description here" />
-        <meta name="keywords" content="next.js, SEO, meta tags" />
-        <title>Nexaq - SEO Digital Marketing Agency NextJS Template</title>
+        <meta
+          name="keywords"
+          content="web development, app development, software development, SEO, AEO, GEO, AI solutions, AI agents, business automation, web design, ecommerce development, Dizinetech"
+        />
+
+        <title>Dizinetech | Web, SEO & AI Solutions</title>
 
         {/* GSAP Scripts */}
         <Script
@@ -246,14 +249,11 @@ export default function RootLayout({ children }) {
           strategy="beforeInteractive"
         />
       </head>
-      <body
-        id="body"
-        className={`tt-magic-cursor ${inter.variable} ${syne.variable}`}
-      >
-        <div id="magic-cursor">
+      <body id="body" className={` ${inter.variable} ${syne.variable}`}>
+        {/* <div id="magic-cursor">
           <div id="ball"></div>
-        </div>
-        <AnimateCursor />
+        </div> */}
+        {/* <AnimateCursor /> */}
         {children}
       </body>
     </html>

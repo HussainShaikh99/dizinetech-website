@@ -4206,16 +4206,16 @@ header.style-2 {
     }
   }
 }
-.home1-feature-section{
-  background-color: #E9E5FF;
-  padding: 100px 0;
-  @include xl-down-device(){
-    padding: 90px 0;
-  }
-  @include lg-down-device(){
-    padding: 70px 0;
-  }
-}
+// .home1-feature-section{
+//   background-color: #E9E5FF;
+//   padding: 100px 0;
+//   @include xl-down-device(){
+//     padding: 90px 0;
+//   }
+//   @include lg-down-device(){
+//     padding: 70px 0;
+//   }
+// }
 /*=====================================
  06. Home1 About Section 
 ========================================*/
@@ -14180,7 +14180,8 @@ header.style-2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-top: 170px;
+  padding-top: 180px;
+  padding-bottom: 100px;
   position: relative;
   overflow: hidden;
   @include xxl-down-device(){

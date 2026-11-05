@@ -17,7 +17,7 @@ const Home4Footer = () => {
                                             </Link>
                                         </div>
                                         <div className="content">
-                                            <p>Welcome to Nexaq, where innovation meets our passion in a journey that started dream.</p>
+                                            <p>We design and build high-performance websites, SEO strategies, and AI solutions that help businesses grow and stay ahead in a digital-first world.</p>
                                         </div>
                                         <ul className="rating-area">
                                             <li>

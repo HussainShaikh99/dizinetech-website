@@ -65,23 +65,24 @@ const Home5Portfolio = () => {
                                                 <div className="row g-lg-4 gy-5">
                                                     <div className="col-lg-5 d-flex align-items-lg-end">
                                                         <div className="portfolio-content">
-                                                            <span>Client: Egenslab</span>
-                                                            <h2>Navigating Digital Excellence</h2>
-                                                            <ul>
-                                                                <li><Link href="/portfolio">Web Design</Link></li>
-                                                                <li><Link href="/portfolio">Development</Link></li>
+                                                            <span>Client: Zyftt</span>
+                                                            <h2>Zyftt - Corporate Gifting E-commerce Platform</h2>
+                                                            <ul className="portfolio-tags">
+                                                                <li>Web Development</li>
+                                                                <li>MERN Stack</li>
+                                                                <li>E-commerce</li>
                                                             </ul>
                                                             <svg width={6} height={83} viewBox="0 0 6 83" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM2.5 3V83H3.5V3H2.5Z" />
                                                             </svg>
-                                                            <Link href="/portfolio/details" className="primary-btn" data-text="View Details">
+                                                            <Link href="/portfolio" className="primary-btn" data-text="View Details">
                                                                 <span>View Details</span>
                                                             </Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-7">
                                                         <div className="portfolio-img">
-                                                            <img src="assets/img/home5/portfolio-img1.jpg" alt="" />
+                                                            <img src="assets/img/portfolio/dizinetech-portfolio-1.webp" alt="" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -92,23 +93,24 @@ const Home5Portfolio = () => {
                                                 <div className="row g-lg-4 gy-5">
                                                     <div className="col-lg-5 d-flex align-items-lg-end">
                                                         <div className="portfolio-content">
-                                                            <span>Client: Egenslab</span>
-                                                            <h2>Dominating Search Results</h2>
-                                                            <ul>
-                                                                <li><Link href="/portfolio">Logo Design</Link></li>
-                                                                <li><Link href="/portfolio">Digital Graphics</Link></li>
+                                                            <span>Client: Pramara</span>
+                                                            <h2>Pramara – Promotional Marketing & Toy Manufacturing</h2>
+                                                            <ul className="portfolio-tags">
+                                                                <li>Web Development</li>
+                                                                <li>Wordpress</li>
+                                                                <li>Corporate Website</li>
                                                             </ul>
                                                             <svg width={6} height={83} viewBox="0 0 6 83" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM2.5 3V83H3.5V3H2.5Z" />
                                                             </svg>
-                                                            <Link href="/portfolio/details" className="primary-btn" data-text="View Details">
+                                                            <Link href="/portfolio" className="primary-btn" data-text="View Details">
                                                                 <span>View Details</span>
                                                             </Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-7">
                                                         <div className="portfolio-img">
-                                                            <img src="assets/img/home5/portfolio-img2.jpg" alt="" />
+                                                            <img src="assets/img/portfolio/dizinetech-portfolio-2.webp" alt="" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -119,23 +121,24 @@ const Home5Portfolio = () => {
                                                 <div className="row g-lg-4 gy-5">
                                                     <div className="col-lg-5 d-flex align-items-lg-end">
                                                         <div className="portfolio-content">
-                                                            <span>Client: Egenslab</span>
-                                                            <h2>Unlocking Organic Growth</h2>
-                                                            <ul>
-                                                                <li><Link href="/portfolio">Print Collateral</Link></li>
-                                                                <li><Link href="/portfolio">Development</Link></li>
+                                                            <span>Client: Moaadi</span>
+                                                            <h2>Moaadi – Construction Materials & Auto Parts Marketplace</h2>
+                                                            <ul className="portfolio-tags">
+                                                                <li>B2B Marketplace</li>
+                                                                <li>MERN Stack</li>
+                                                                <li>Admin Dashboard</li>
                                                             </ul>
                                                             <svg width={6} height={83} viewBox="0 0 6 83" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM2.5 3V83H3.5V3H2.5Z" />
                                                             </svg>
-                                                            <Link href="/portfolio/details" className="primary-btn" data-text="View Details">
+                                                            <Link href="/portfolio" className="primary-btn" data-text="View Details">
                                                                 <span>View Details</span>
                                                             </Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-7">
                                                         <div className="portfolio-img">
-                                                            <img src="assets/img/home5/portfolio-img3.jpg" alt="" />
+                                                            <img src="assets/img/portfolio/dizinetech-portfolio-3.webp" alt="" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -146,23 +149,81 @@ const Home5Portfolio = () => {
                                                 <div className="row g-lg-4 gy-5">
                                                     <div className="col-lg-5 d-flex align-items-lg-end">
                                                         <div className="portfolio-content">
-                                                            <span>Client: Egenslab</span>
-                                                            <h2>Handling Virtual Brilliance</h2>
-                                                            <ul>
-                                                                <li><Link href="/portfolio">Web Design</Link></li>
-                                                                <li><Link href="/portfolio">Development</Link></li>
+                                                            <span>Client: Glutape</span>
+                                                            <h2>Glutape India Pvt. Ltd. – SEO & Organic Lead Generation</h2>
+                                                          <ul className="portfolio-tags">
+                                                                <li>SEO</li>
+                                                                <li>Organic Growth</li>
+                                                                <li>Lead Generation</li>
                                                             </ul>
                                                             <svg width={6} height={83} viewBox="0 0 6 83" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM2.5 3V83H3.5V3H2.5Z" />
                                                             </svg>
-                                                            <Link href="/portfolio/details" className="primary-btn" data-text="View Details">
+                                                            <Link href="/portfolio" className="primary-btn" data-text="View Details">
                                                                 <span>View Details</span>
                                                             </Link>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-7">
                                                         <div className="portfolio-img">
-                                                            <img src="assets/img/home5/portfolio-img4.jpg" alt="" />
+                                                            <img src="assets/img/portfolio/dizinetech-portfolio-5.webp" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+                                         <SwiperSlide className="swiper-slide">
+                                            <div className="single-portfolio">
+                                                <div className="row g-lg-4 gy-5">
+                                                    <div className="col-lg-5 d-flex align-items-lg-end">
+                                                        <div className="portfolio-content">
+                                                            <span>Client: Rosy World</span>
+                                                            <h2>Rosy World – Travel & Group Adventures</h2>
+                                                          <ul className="portfolio-tags">
+                                                                <li>Wordpress</li>
+                                                                <li>Travel Website</li>
+                                                                <li>UI/UX Design</li>
+                                                            </ul>
+                                                            <svg width={6} height={83} viewBox="0 0 6 83" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM2.5 3V83H3.5V3H2.5Z" />
+                                                            </svg>
+                                                            <Link href="/portfolio" className="primary-btn" data-text="View Details">
+                                                                <span>View Details</span>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-7">
+                                                        <div className="portfolio-img">
+                                                            <img src="assets/img/portfolio/dizinetech-portfolio-8.webp" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+                                        <SwiperSlide className="swiper-slide">
+                                            <div className="single-portfolio">
+                                                <div className="row g-lg-4 gy-5">
+                                                    <div className="col-lg-5 d-flex align-items-lg-end">
+                                                        <div className="portfolio-content">
+                                                            <span>Client: SNZ Design</span>
+                                                            <h2>SNZ Design – SEO & Local Business Growth</h2>
+                                                          <ul className="portfolio-tags">
+                                                                <li>SEO</li>
+                                                                <li>Google Business Profile</li>
+                                                                
+                                                                <li>Lead Generation</li>
+                                                            </ul>
+                                                            <svg width={6} height={83} viewBox="0 0 6 83" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM2.5 3V83H3.5V3H2.5Z" />
+                                                            </svg>
+                                                            <Link href="/portfolio" className="primary-btn" data-text="View Details">
+                                                                <span>View Details</span>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-7">
+                                                        <div className="portfolio-img">
+                                                            <img src="assets/img/portfolio/dizinetech-portfolio-10.webp" alt="" />
                                                         </div>
                                                     </div>
                                                 </div>

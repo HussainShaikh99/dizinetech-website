@@ -5,10 +5,10 @@ const Home1Feature = () => {
         <div className="home1-feature-section mb-120">
             <div className="container">
                 <div className="row justify-content-center mb-50">
-                    <div className="col-lg-6">
+                    <div className="">
                         <div className="section-title text-center text-animation">
-                            <span className="sub-title">Why Nexaq</span>
-                            <h2>SEO &amp; Online <span>Digital Marketing</span> Needs.</h2>
+                            <span className="sub-title">OUR VALUES</span>
+                            <h2>What Drives Every<span> Project We Build.</span></h2>
                         </div>
                     </div>
                 </div>
@@ -23,8 +23,8 @@ const Home1Feature = () => {
                                 </svg>
                             </div>
                             <div className="content">
-                                <h5>Drive Website <br /> Traffic</h5>
-                                <p>Highlight experience &amp; qualifications of your team member suc certificate or relevant degrees.</p>
+                                <h5>Strategic Thinking</h5>
+                                <p>Every decision starts with understanding your business, audience, and long-term goals.</p>
                             </div>
                         </div>
                     </div>
@@ -45,8 +45,8 @@ const Home1Feature = () => {
                                 </svg>
                             </div>
                             <div className="content">
-                                <h5>Create &amp; Manage Powerful Ad Campaign</h5>
-                                <p>Highlight experience &amp; qualifications of your team member suc certificate or relevant degrees.</p>
+                                <h5>Quality Excellence</h5>
+                                <p>We focus on clean design, reliable development, and attention to every detail.</p>
                             </div>
                         </div>
                     </div>
@@ -80,8 +80,8 @@ const Home1Feature = () => {
                                 </svg>
                             </div>
                             <div className="content">
-                                <h5>Collect, Analyze And Deploy Marketing Data</h5>
-                                <p>Highlight experience &amp; qualifications of your team member suc certificate or relevant degrees.</p>
+                                <h5>Transparent Partnership</h5>
+                                <p>Expect honest advice, transparent updates, and a smooth experience from start to finish.</p>
                             </div>
                         </div>
                     </div>
@@ -97,8 +97,8 @@ const Home1Feature = () => {
                                 </svg>
                             </div>
                             <div className="content">
-                                <h5>Improve Brand Messag And Conversion.</h5>
-                                <p>Highlight experience &amp; qualifications of your team member suc certificate or relevant degrees.</p>
+                                <h5>Sustainable Growth</h5>
+                                <p>We create scalable digital solutions that continue delivering value as your business grows.</p>
                             </div>
                         </div>
                     </div>

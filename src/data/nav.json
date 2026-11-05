@@ -1,97 +1,67 @@
 [
-    {
+  {
+    "id": "1",
+    "label": "Home",
+    "link": "/",
+    "icon": false
+  },
+  {
+    "id": "2",
+    "label": "About",
+    "link": "/about",
+    "icon": false
+  },
+  {
+    "id": "3",
+    "label": "Services",
+    "link": "#",
+    "icon": true,
+    "subMenu": [
+      {
         "id": "1",
-        "label": "Home",
-        "link": "/",
-        "icon": true
-    },
-    {
+        "label": "Web & App Development",
+        "link": "/web-and-app-development",
+        "icon": false
+      },
+      {
         "id": "2",
-        "label": "Solutions",
-        "link": "/services",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "icon": false,
-                "label": "Services",
-                "link": "/services"
-            },
-            {
-                "id": "2",
-                "icon": false,
-                "label": "Service Details",
-                "link": "/service-details"
-            }
-        ]
-
-    },
-    {
+        "label": "AI Solutions",
+        "link": "/ai-solutions",
+        "icon": false
+      },
+      
+      {
         "id": "3",
-        "label": "Case Study",
-        "link": "/case-study",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "icon": false,
-                "label": "Case Study",
-                "link": "/case-study"
-            },
-            {
-                "id": "2",
-                "icon": false,
-                "label": "Case Study Details",
-                "link": "/case-study-details"
-            }
-        ]
+        "label": "Software Development",
+        "link": "/software-development",
+        "icon": false
+      },
+      
+      {
+        "id": "4",
+        "label": "SEO & Growth",
+        "link": "/seo-and-growth",
+        "icon": false
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "label": "Portfolio",
+    "link": "/portfolio",
+    "icon": false
+  },
+  {
+    "id": "5",
+    "label": "Careers",
+    "link": "/careers",
+    "icon": false
+  },
 
-    },
- 
-   
-    {
-        "id": "5",
-        "label": "Pages",
-        "link": "#",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "icon": false,
-                "label": "about us",
-                "link": "/about"
-            },
-            {
-                "id": "2",
-                "icon": false,
-                "label": "Why Choose Us",
-                "link": "/why-choose-us"
-            },
-           
-            {
-                "id": "4",
-                "icon": false,
-                "label": "Our Team",
-                "link": "/team"
-            },
-         
-            {
-                "id": "5",
-                "label": "Career",
-                "link": "/career-list",
-                "icon": true
-             
-            }
-         
-          
-           
-         
-        ]
-    },
-    {
-        "id": "6",
-        "label": "Contact Us",
-        "link": "/contact",
-        "icon": true
-    }
+  {
+    "id": "7",
+    "label": "Contact",
+    "link": "/contact",
+    "icon": false
+  }
 ]

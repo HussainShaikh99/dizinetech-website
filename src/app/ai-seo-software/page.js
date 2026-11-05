@@ -4,7 +4,7 @@ import Home6Blog from '@/components/blog-section/Home6Blog'
 import Home6Contact from '@/components/contact/Home6Contact'
 import Home6Faq from '@/components/faq-section/Home6Faq'
 import Home6Feature from '@/components/feature/Home6Feature'
-import Home6Footer from '@/components/Footer/Home6Footer'
+import Home5Footer from '@/components/Footer/Home5Footer'
 import Header1 from '@/components/header/Header1'
 import Home6PerformanceSection from '@/components/performance-section/Home6PerformanceSection'
 import Home6Pricing from '@/components/pricing-plan-section/Home6Pricing'
@@ -17,8 +17,8 @@ export const metadata = {
       icon: "/assets/img/fav-icon.svg",
     },
   };
-const AiSeoSoftwarePage = () => {
-    return (
+    const AiSeoSoftwarePage = () => {
+        return (
         <>
             <Header1 style='style-1 four' fluid='container' />
             <Home6Banner />

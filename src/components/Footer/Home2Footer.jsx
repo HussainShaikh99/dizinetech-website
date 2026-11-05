@@ -13,11 +13,11 @@ const Home2Footer = () => {
                                     <div className="logo-and-rating-area">
                                         <div className="footer-logo">
                                             <Link href="/seo-company">
-                                                <img src="assets/img/footer-logo-white.svg" alt="" />
+                                                <img src="assets/img/DizineTech-Logo-2.png" alt="" />
                                             </Link>
                                         </div>
                                         <div className="content">
-                                            <p>Welcome to Nexaq, where innovation meets our passion in a journey that started dream.</p>
+                                            <p>We design and build high-performance websites, SEO strategies, and AI solutions that help businesses grow and stay ahead in a digital-first world.</p>
                                         </div>
                                         <ul className="rating-area">
                                             <li>

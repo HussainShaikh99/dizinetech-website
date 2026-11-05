@@ -16,10 +16,11 @@ const Home1Contact = () => {
         <div className="home1-contact-wrap">
           <div className="row align-items-center g-lg-4 gy-5">
             <div className="col-lg-4">
-              <div className="contact-title-area text-animation">
-                <h2>The Proof Is In The Numbers Don't Lie</h2>
-                <Link href="/contact" className="primary-btn2 white-bg" data-text="Contact Us">
-                  <span>Contact Us</span>
+              <div className="contact-title-area text-animation section-title">
+                <h2 className="trust-heading">Why Businesses Trust <span>Dizinetech</span></h2>
+                <p class="para-abt-why">We combine modern technology, clear communication, and a growth-focused approach to deliver websites and digital solutions that help businesses succeed. </p>
+                <Link href="/contact" className="primary-btn2 white-bg" data-text="Start Your Project">
+                  <span>Start Your Project</span>
                 </Link>
               </div>
             </div>
@@ -35,9 +36,9 @@ const Home1Contact = () => {
                         <div className="number-and-arrow">
                           <div className="number">
                             <h5 className="counter">
-                              {inView ? <CountUp end={40} duration={2} /> : '0'}
+                             {inView ? <CountUp end={50} duration={2} /> : '0'}
                             </h5>
-                            <span>%</span>
+                            <span>+</span>
                           </div>
                           <div className="arrow">
                             <svg width={16} height={20} viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +48,7 @@ const Home1Contact = () => {
                         </div>
                       </div>
                       <div className="content">
-                        <p>Average increase in sales for our clients.</p>
+                        <p>Projects Delivered</p>
                       </div>
                     </div>
                   </div>
@@ -60,9 +61,9 @@ const Home1Contact = () => {
                         <div className="number-and-arrow">
                           <div className="number">
                             <h5 className="counter">
-                              {inView ? <CountUp end={50} duration={2} /> : '0'}
+                              {inView ? <CountUp end={5} duration={2} /> : '0'}
                             </h5>
-                            <span>%</span>
+                            <span>+</span>
                           </div>
                           <div className="arrow">
                             <svg width={16} height={20} viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +73,7 @@ const Home1Contact = () => {
                         </div>
                       </div>
                       <div className="content">
-                        <p>Google and Facebook-Certified Team.</p>
+                        <p>Years of Experience</p>
                       </div>
                     </div>
                   </div>
@@ -85,9 +86,9 @@ const Home1Contact = () => {
                         <div className="number-and-arrow">
                           <div className="number">
                             <h5 className="counter">
-                              {inView ? <CountUp end={60} duration={2} /> : '0'}
+                              {inView ? <CountUp end={24} duration={2} /> : '0'}
                             </h5>
-                            <span>%</span>
+                            <span>h</span>
                           </div>
                           <div className="arrow">
                             <svg width={16} height={20} viewBox="0 0 16 20" xmlns="http://www.w3.org/2000/svg">
@@ -97,7 +98,7 @@ const Home1Contact = () => {
                         </div>
                       </div>
                       <div className="content">
-                        <p>Results Improved Compared To Previous Agencies.</p>
+                        <p>Average Response</p>
                       </div>
                     </div>
                   </div>
