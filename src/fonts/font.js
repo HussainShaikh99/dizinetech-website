@@ -1,17 +1,15 @@
-import {   Inter, Syne } from "next/font/google";
-
+import { Inter, Syne } from "next/font/google";
 
 export const inter = Inter({
-    weight:["400","500","600","700","800","900"],
-    subsets:["latin"],
-    display:"swap",
-    variable:"--font-inter",
-    style:["normal"]
-})
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
 export const syne = Syne({
-    weight:["400","500","600","700","800"],
-    subsets:["latin"],
-    display:"swap",
-    style:["normal"],
-    variable:"--font-syne"
-})
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+  variable: "--font-syne",
+});
