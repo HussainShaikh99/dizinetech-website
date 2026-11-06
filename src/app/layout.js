@@ -48,7 +48,7 @@ export const metadata = {
     title: "DizineTech | Digital Solutions for Business Growth",
     description:
       "Web Development, SEO, Digital Marketing and AI Solutions.",
-    images: ["/images/dizinetech-og.png"],
+    images: ["/assets/img/dizinetech-og.png"],
   },
 };
 
