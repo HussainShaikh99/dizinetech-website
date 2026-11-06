@@ -2,7 +2,9 @@
 
 import { useRef, useState } from "react";
 import SelectComponent from "@/components/common/SelectComponent";
-
+import Header1 from "@/components/header/Header1";
+import Breadcrum from "@/components/common/Breadcrum";
+import Home5Footer from "@/components/Footer/Home5Footer";
 const ENDPOINT = "https://api.web3forms.com/submit";
 const ACCESS_KEY =
   process.env.NEXT_PUBLIC_WEB3FORMS_KEY ??
@@ -127,140 +129,148 @@ export default function ContactPage() {
   };
 
   return (
-    <form ref={formRef} onSubmit={handleSubmit} aria-busy={loading}>
-      {/* Honeypot */}
-      <input
-        type="checkbox"
-        name="botcheck"
-        tabIndex={-1}
-        autoComplete="off"
-        aria-hidden="true"
-        style={{ display: "none" }}
+    <>
+      <Header1 style={"inner-page"} fluid="container" />
+      <Breadcrum
+        pageTitle="Career"
+        pagename="Join Our Team"
+        bannerImage="/assets/img/banner/career-banner.webp"
       />
+      <form ref={formRef} onSubmit={handleSubmit} aria-busy={loading}>
+        {/* Honeypot */}
+        <input
+          type="checkbox"
+          name="botcheck"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          style={{ display: "none" }}
+        />
 
-      <div className="row">
-        <div className="col-md-12 mb-35">
-          <div className="form-inner">
-            <label htmlFor="cf-name">Full Name *</label>
-            <input
-              id="cf-name"
-              name="name"
-              type="text"
-              autoComplete="name"
-              required
-              maxLength={100}
-            />
+        <div className="row">
+          <div className="col-md-12 mb-35">
+            <div className="form-inner">
+              <label htmlFor="cf-name">Full Name *</label>
+              <input
+                id="cf-name"
+                name="name"
+                type="text"
+                autoComplete="name"
+                required
+                maxLength={100}
+              />
+            </div>
+          </div>
+          <div className="col-md-6 mb-35">
+            <div className="form-inner">
+              <label htmlFor="cf-email">Email *</label>
+              <input
+                id="cf-email"
+                name="email"
+                type="email"
+                autoComplete="email"
+                required
+                maxLength={254}
+              />
+            </div>
+          </div>
+          <div className="col-md-6 mb-35">
+            <div className="form-inner">
+              <label htmlFor="cf-phone">Phone *</label>
+              <input
+                id="cf-phone"
+                name="phone"
+                type="tel"
+                autoComplete="tel"
+                required
+                pattern="[0-9+()\-\s]{7,20}"
+                title="Enter a valid phone number"
+                maxLength={20}
+              />
+            </div>
+          </div>
+          <div className="col-md-6 mb-35">
+            <div className="form-inner">
+              <label htmlFor="cf-company">Company *</label>
+              <input
+                id="cf-company"
+                name="company"
+                type="text"
+                autoComplete="organization"
+                required
+                maxLength={150}
+              />
+            </div>
+          </div>
+          <div className="col-md-6 mb-35">
+            <div className="form-inner">
+              <label htmlFor="cf-website">Website *</label>
+              <input
+                id="cf-website"
+                name="website"
+                type="text"
+                autoComplete="url"
+                required
+                maxLength={200}
+              />
+            </div>
+          </div>
+          <div className="col-md-12 mb-35">
+            <div className="form-inner">
+              <label>Interested In</label>
+              <SelectComponent
+                key={selectKey}
+                options={INTEREST_OPTIONS}
+                placeholder="Select Interested In"
+                onChange={setInterest}
+              />
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="form-inner">
+              <label htmlFor="cf-message">Message *</label>
+              <textarea
+                id="cf-message"
+                name="message"
+                required
+                minLength={10}
+                maxLength={2000}
+              />
+            </div>
           </div>
         </div>
-        <div className="col-md-6 mb-35">
-          <div className="form-inner">
-            <label htmlFor="cf-email">Email *</label>
-            <input
-              id="cf-email"
-              name="email"
-              type="email"
-              autoComplete="email"
-              required
-              maxLength={254}
-            />
-          </div>
-        </div>
-        <div className="col-md-6 mb-35">
-          <div className="form-inner">
-            <label htmlFor="cf-phone">Phone *</label>
-            <input
-              id="cf-phone"
-              name="phone"
-              type="tel"
-              autoComplete="tel"
-              required
-              pattern="[0-9+()\-\s]{7,20}"
-              title="Enter a valid phone number"
-              maxLength={20}
-            />
-          </div>
-        </div>
-        <div className="col-md-6 mb-35">
-          <div className="form-inner">
-            <label htmlFor="cf-company">Company *</label>
-            <input
-              id="cf-company"
-              name="company"
-              type="text"
-              autoComplete="organization"
-              required
-              maxLength={150}
-            />
-          </div>
-        </div>
-        <div className="col-md-6 mb-35">
-          <div className="form-inner">
-            <label htmlFor="cf-website">Website *</label>
-            <input
-              id="cf-website"
-              name="website"
-              type="text"
-              autoComplete="url"
-              required
-              maxLength={200}
-            />
-          </div>
-        </div>
-        <div className="col-md-12 mb-35">
-          <div className="form-inner">
-            <label>Interested In</label>
-            <SelectComponent
-              key={selectKey}
-              options={INTEREST_OPTIONS}
-              placeholder="Select Interested In"
-              onChange={setInterest}
-            />
-          </div>
-        </div>
-        <div className="col-lg-12">
-          <div className="form-inner">
-            <label htmlFor="cf-message">Message *</label>
-            <textarea
-              id="cf-message"
-              name="message"
-              required
-              minLength={10}
-              maxLength={2000}
-            />
-          </div>
-        </div>
-      </div>
 
-      <div className="form-inner2">
-        <div className="form-check">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            id="contactCheck"
-            required
-          />
-          <label className="form-check-label" htmlFor="contactCheck">
-            I have read &amp; accepted Terms &amp; Conditions.
-          </label>
+        <div className="form-inner2">
+          <div className="form-check">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              id="contactCheck"
+              required
+            />
+            <label className="form-check-label" htmlFor="contactCheck">
+              I have read &amp; accepted Terms &amp; Conditions.
+            </label>
+          </div>
         </div>
-      </div>
 
-      <button
-        type="submit"
-        className="primary-btn2"
-        data-text={loading ? "Sending..." : "Submit Now"}
-        disabled={loading}
-      >
-        <span>{loading ? "Sending..." : "Submit Now"}</span>
-      </button>
+        <button
+          type="submit"
+          className="primary-btn2"
+          data-text={loading ? "Sending..." : "Submit Now"}
+          disabled={loading}
+        >
+          <span>{loading ? "Sending..." : "Submit Now"}</span>
+        </button>
 
-      <p
-        role="status"
-        aria-live="polite"
-        className={`mt-3 mb-0 ${status.type === "success" ? "text-success" : "text-danger"}`}
-      >
-        {status.message}
-      </p>
-    </form>
+        <p
+          role="status"
+          aria-live="polite"
+          className={`mt-3 mb-0 ${status.type === "success" ? "text-success" : "text-danger"}`}
+        >
+          {status.message}
+        </p>
+      </form>
+    </>
   );
 }
